@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="@string/my_apps"
         android:padding="20dp"
-        android:autoText="false"
+        android:textColor="?colorPrimaryDark"
         android:gravity="center_horizontal" />
 
     <Button
@@ -29,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/txt_spotify_streamer"
+        android:background="#607D8B"
         />
 
     <Button
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/txt_super_duo"
+        android:background="#607D8B"
         />
 
     <Button
@@ -45,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/txt_build_bigger"
+        android:background="#607D8B"
         />
 
     <Button
@@ -53,6 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/txt_xyz_reader"
+        android:background="#607D8B"
         />
 
     <Button
@@ -61,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/txt_capstone"
+        android:background="#607D8B"
         />
 
 </LinearLayout>
