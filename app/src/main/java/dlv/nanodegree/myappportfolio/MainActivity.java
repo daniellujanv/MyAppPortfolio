@@ -2,17 +2,37 @@ package dlv.nanodegree.myappportfolio;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        findViewById(R.id.btn_spotify_streamer).setOnClickListener(showToast);
+        findViewById(R.id.btn_super_duo).setOnClickListener(showToast);
+        findViewById(R.id.btn_build_bigger).setOnClickListener(showToast);
+        findViewById(R.id.btn_xyz_reader).setOnClickListener(showToast);
+        findViewById(R.id.btn_capstone).setOnClickListener(showToast);
+
     }
+
+    View.OnClickListener showToast = new View.OnClickListener(){
+
+        @Override
+        public void onClick(View v) {
+            String text = "This button will launch my "+((Button)v).getText()+" App";
+            Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
+        }
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

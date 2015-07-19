@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">MyAppPortfolio</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="my_apps">My Nanodegree Apps!</string>
     <string name="action_settings">Settings</string>
+    <!--
+        Spotify Streamer
+        Super Duo (2 buttons: Football Scores App and Library App)
+        Build It Bigger
+        XYZ Reader
+        Capstone
+        -->
+    <string name="txt_spotify_streamer">Spotify Streamer</string>
+    <string name="txt_super_duo">Super Duo</string>
+    <string name="txt_build_bigger">Build It Bigger</string>
+    <string name="txt_xyz_reader">XYZ Reader</string>
+    <string name="txt_capstone">Capstone</string>
 </resources>
